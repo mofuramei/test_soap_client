@@ -1,0 +1,10 @@
+C:\git\test_soap_client\test_soap_client\bin\Debug\test_soap_client.exe.config
+C:\git\test_soap_client\test_soap_client\bin\Debug\test_soap_client.exe
+C:\git\test_soap_client\test_soap_client\bin\Debug\test_soap_client.pdb
+C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.csprojAssemblyReference.cache
+C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.Form1.resources
+C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.Properties.Resources.resources
+C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.csproj.GenerateResource.cache
+C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.csproj.CoreCompileInputs.cache
+C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.exe
+C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.pdb
