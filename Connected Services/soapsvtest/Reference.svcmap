@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://soap.testsv.jp/SimpleWebService.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://soap.testsv.jp:8080/SimpleWebService.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SimpleWebService1.disco" MetadataType="Disco" ID="3f5c02e5-412f-47c0-be78-f2f4be859a33" SourceId="1" SourceUrl="https://soap.testsv.jp/SimpleWebService.asmx?disco" />
-    <MetadataFile FileName="SimpleWebService1.wsdl" MetadataType="Wsdl" ID="91c9459e-6b09-4c7e-b8e0-5e4808d89653" SourceId="1" SourceUrl="https://soap.testsv.jp/SimpleWebService.asmx?wsdl" />
+    <MetadataFile FileName="SimpleWebService2.disco" MetadataType="Disco" ID="213f316c-41ac-49c8-b3ad-c030ae235071" SourceId="1" SourceUrl="https://soap.testsv.jp:8080/SimpleWebService.asmx?disco" />
+    <MetadataFile FileName="SimpleWebService2.wsdl" MetadataType="Wsdl" ID="6e4454d8-a09a-4397-a3af-35876655a787" SourceId="1" SourceUrl="https://soap.testsv.jp:8080/SimpleWebService.asmx?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

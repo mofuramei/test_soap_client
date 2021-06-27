@@ -75,6 +75,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="Connected Services\soapsvtest\SimpleWebService.wsdl" />
+    <None Include="Connected Services\soapsvtest\SimpleWebService2.wsdl" />
     <None Include="Connected Services\soapsvtest\test_soap_client.soapsvtest.AddQuoteResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -114,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\soapsvtest\SimpleWebService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\soapsvtest\SimpleWebService2.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

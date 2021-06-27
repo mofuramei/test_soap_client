@@ -8,3 +8,13 @@ C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.csproj.Gener
 C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.csproj.CoreCompileInputs.cache
 C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.exe
 C:\git\test_soap_client\test_soap_client\obj\Debug\test_soap_client.pdb
+C:\git_mofuramei\test_soap_client\bin\Debug\test_soap_client.exe.config
+C:\git_mofuramei\test_soap_client\bin\Debug\test_soap_client.exe
+C:\git_mofuramei\test_soap_client\bin\Debug\test_soap_client.pdb
+C:\git_mofuramei\test_soap_client\obj\Debug\test_soap_client.csproj.AssemblyReference.cache
+C:\git_mofuramei\test_soap_client\obj\Debug\test_soap_client.Form1.resources
+C:\git_mofuramei\test_soap_client\obj\Debug\test_soap_client.Properties.Resources.resources
+C:\git_mofuramei\test_soap_client\obj\Debug\test_soap_client.csproj.GenerateResource.cache
+C:\git_mofuramei\test_soap_client\obj\Debug\test_soap_client.csproj.CoreCompileInputs.cache
+C:\git_mofuramei\test_soap_client\obj\Debug\test_soap_client.exe
+C:\git_mofuramei\test_soap_client\obj\Debug\test_soap_client.pdb

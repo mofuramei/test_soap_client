@@ -27,7 +27,24 @@ namespace test_soap_client
     {
       textBox2.Text = "";
 
-      soapsvtest.WebService1SoapClient cl = new soapsvtest.WebService1SoapClient();
+      //soapsvtest.WebService1SoapClient cl = new soapsvtest.WebService1SoapClient();
+
+      //SSL無しの時
+      //var bind = new BasicHttpBinding(BasicHttpSecurityMode.TransportCredentialOnly);
+      
+      //SSL有りの時
+      var bind = new BasicHttpBinding(BasicHttpSecurityMode.Transport);
+      
+      bind.Security.Transport.ClientCredentialType = HttpClientCredentialType.Basic;
+
+      //ポートを8080で指定（モジュールはIIS指定先トップに直置き）
+      var address = new EndpointAddress(new Uri("https://soap.testsv.jp:8080/SimpleWebService.asmx"));
+
+      var cl = new soapsvtest.WebService1SoapClient(bind, address);
+      
+      //ローカルテストなのでbasic認証 ユーザーID/パスは直指定
+      cl.ClientCredentials.UserName.UserName = "webtest";
+      cl.ClientCredentials.UserName.Password = "aiueo";
 
       //AddQuote
       string value = cl.AddQuote(textBox1.Text);

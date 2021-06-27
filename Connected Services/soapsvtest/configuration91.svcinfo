@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="H5Op2KXYRoOCyEu/by5n21eOIAKyUpVKfcooLjCiU2Q=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="UuTyWFZNRxWhLT+nvcEQOEddM3gac/9slYYfvx1LRLw=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="WebService1Soap">
       <properties>
@@ -221,10 +221,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="WebService1Soap" contract="soapsvtest.WebService1Soap" bindingType="basicHttpBinding" address="https://soap.testsv.jp/SimpleWebService.asmx" bindingConfiguration="WebService1Soap">
+    <endpoint name="WebService1Soap" contract="soapsvtest.WebService1Soap" bindingType="basicHttpBinding" address="https://soap.testsv.jp:8080/SimpleWebService.asmx" bindingConfiguration="WebService1Soap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://soap.testsv.jp/SimpleWebService.asmx</serializedValue>
+          <serializedValue>https://soap.testsv.jp:8080/SimpleWebService.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
